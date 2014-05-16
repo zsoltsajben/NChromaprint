@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="NChromaprint.AudioConsumer" Collapsed="true">
+    <Position X="16.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\AudioConsumer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NChromaprint.Classes.AudioProcessor" Collapsed="true">
+    <Position X="17.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAwAAIIAAADABgCAAEIQAQAAAAAAAABAASAAAIgAA=</HashCode>
+      <FileName>Classes\AudioProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NChromaprint.Classes.Chroma" Collapsed="true">
+    <Position X="22.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgACAIAAAABMABAAABAAQQAAIAAABAAAACAEAAAAA=</HashCode>
+      <FileName>Classes\Chroma.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NChromaprint.Classes.ChromaFilter" Collapsed="true">
+    <Position X="24.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAQAADAAACAAAAARAAEAAAAAAAAACAAAAQAA=</HashCode>
+      <FileName>Classes\ChromaFilter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NChromaprint.Classes.ChromaNormalizer" Collapsed="true">
+    <Position X="26" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAIAAAABAAACAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Classes\ChromaNormalizer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NChromaprint.Classes.Classifier" Collapsed="true">
+    <Position X="27.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAFAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Classifier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NChromaprint.Classes.FFT" Collapsed="true">
+    <Position X="15.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAADAAgYAACAAAAAAAAAAAAAAACCAAAQAE=</HashCode>
+      <FileName>Classes\FFT.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NChromaprint.Classes.FFTFrame" Collapsed="true">
+    <Position X="22.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAEAAAAAAAAABAAAAAAAAEAAAA=</HashCode>
+      <FileName>Classes\FFTFrame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NChromaprint.Classes.FFTLib" Collapsed="true">
+    <Position X="24.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAEAAAACCAAAAEAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Classes\FFTLib.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NChromaprint.Classes.Filter" Collapsed="true">
+    <Position X="26" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABBAAAAAEAAAAAEAAAAAA8AMgAQAAAAAAIAA=</HashCode>
+      <FileName>Classes\Filter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NChromaprint.Classes.FingerprintCalculator" Collapsed="true">
+    <Position X="27.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQABAAAACAAAAABABAAAAAAACAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Classes\FingerprintCalculator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NChromaprint.Classes.FingerprintCompressor" Collapsed="true">
+    <Position X="22.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAETAAAAAAIAAQAAQAAACAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\FingerprintCompressor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NChromaprint.Classes.FingerprintDecompressor" Collapsed="true">
+    <Position X="24.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAEEQAAAAAAACCQAAQAAAAAAIAAAAAACAAAAAA=</HashCode>
+      <FileName>Classes\FingerprintDecompressor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NChromaprint.Classes.Fingerprinter" Collapsed="true">
+    <Position X="20" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgCAAgAIACAAQAAAAAgAAQAGMKAAAAAAQAAAAAABAog=</HashCode>
+      <FileName>Classes\Fingerprinter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NChromaprint.Classes.FingerprinterConfiguration" Collapsed="true">
+    <Position X="26" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAQCBAIBBAAAAAAQAAAAAAAAAAAAAAAIAEAI=</HashCode>
+      <FileName>Classes\FingerprinterConfiguration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NChromaprint.Classes.Image" Collapsed="true">
+    <Position X="27.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAEAAAAAAAICAAQACAAAAAAABAAEAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Image.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NChromaprint.Classes.ImageBuilder" Collapsed="true">
+    <Position X="22.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAABAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\ImageBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NChromaprint.IntegralImage" Collapsed="true">
+    <Position X="24.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAEAAAAAAAICAAAACQAAAAAABAAAAAAAQAAAAA=</HashCode>
+      <FileName>Classes\IntegralImage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NChromaprint.NChromaprintContext">
+    <Position X="6.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ImAAAgAKQCAAAAAAIIgAAABAAgQAAIAAAAAAAABQgAg=</HashCode>
+      <FileName>Classes\NChromaprint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NChromaprint.Quantizer" Collapsed="true">
+    <Position X="27.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAEAAAAAAACAAEIAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Quantizer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NChromaprint.SilenceRemover">
+    <Position X="13.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAIAAAABAAAAAAAAAAAAAAAAAAAAIAigAAIAAA=</HashCode>
+      <FileName>Classes\SilenceRemover.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NChromaprint.helper.Base64" Collapsed="true">
+    <Position X="25.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\Base64.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NChromaprint.BitStringReader" Collapsed="true">
+    <Position X="27.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAABAAACAAAAAAgAAAAAAAAAAAgAAAAQAA=</HashCode>
+      <FileName>Helpers\BitStringReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NChromaprint.BitStringWriter" Collapsed="true">
+    <Position X="29.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAgAAEIQAA=</HashCode>
+      <FileName>Helpers\BitStringWriter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NChromaprint.CombinedBuffer" Collapsed="true">
+    <Position X="25.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAgACAAAAAAAAAAAAAAAAAAAAAAAwAA=</HashCode>
+      <FileName>Helpers\CombinedBuffer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NChromaprint.FeatureVectorConsumer" Collapsed="true">
+    <Position X="21" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\FeatureVectorConsumer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NChromaprint.FFTFrameConsumer" Collapsed="true">
+    <Position X="23.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\FFTFrameConsumer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NChromaprint.IOHelper">
+    <Position X="8.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\IOHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NChromaprint.Classes.MovingAverage">
+    <Position X="10.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAQAAAAQAAAAAAAAAgAAAAAAAwAQ=</HashCode>
+      <FileName>Helpers\MovingAverage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NChromaprint.Extensions" Collapsed="true">
+    <Position X="27.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\own\Extensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NChromaprint.Helper" Collapsed="true">
+    <Position X="29.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACACAAAAAAAAAAAAAAAAAAAAACAAAAAAEAAAJAAAA=</HashCode>
+      <FileName>Helpers\own\Helper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="NChromaprint.ChromaprintAlgorithm" Collapsed="true">
+    <Position X="25.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\ChromaprintAlgorithm.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

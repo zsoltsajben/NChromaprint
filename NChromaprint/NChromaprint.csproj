@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4F8BD089-0C85-4697-9DED-B734D293F432}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NChromaprint</RootNamespace>
+    <AssemblyName>NChromaprint</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MathNet.Numerics">
+      <HintPath>..\packages\MathNet.Numerics.2.3.0\lib\net40\MathNet.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="MathNet.Numerics.IO">
+      <HintPath>..\packages\MathNet.Numerics.2.3.0\lib\net40\MathNet.Numerics.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio">
+      <HintPath>..\packages\NAudio.1.7-alpha04\lib\net35\NAudio.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\AudioConsumer.cs" />
+    <Compile Include="Enums\FingerprinterOption.cs" />
+    <Compile Include="Helpers\Base64.cs" />
+    <Compile Include="Helpers\own\Helper.cs" />
+    <Compile Include="Helpers\IOHelper.cs" />
+    <Compile Include="Classes\AudioProcessor.cs" />
+    <Compile Include="Classes\Chroma.cs" />
+    <Compile Include="Classes\ChromaNormalizer.cs" />
+    <Compile Include="Helpers\BitStringWriter.cs" />
+    <Compile Include="Helpers\BitStringReader.cs" />
+    <Compile Include="Classes\ChromaFilter.cs" />
+    <Compile Include="Helpers\FeatureVectorConsumer.cs" />
+    <Compile Include="Helpers\CombinedBuffer.cs" />
+    <Compile Include="Helpers\own\Extensions.cs" />
+    <Compile Include="Classes\FFTFrameConsumer.cs" />
+    <Compile Include="Classes\FingerprintCalculator.cs" />
+    <Compile Include="Helpers\MovingAverage.cs" />
+    <Compile Include="Classes\SilenceRemover.cs" />
+    <Compile Include="Classes\Classifier.cs" />
+    <Compile Include="Helpers\ChromaprintAlgorithm.cs" />
+    <Compile Include="Classes\FFT.cs" />
+    <Compile Include="Classes\FFTFrame.cs" />
+    <Compile Include="Classes\FingerprintDecompressor.cs" />
+    <Compile Include="Classes\FFTLib.cs" />
+    <Compile Include="Classes\Image.cs" />
+    <Compile Include="Classes\Filter.cs" />
+    <Compile Include="Classes\Fingerprinter.cs" />
+    <Compile Include="Classes\FingerprinterConfiguration.cs" />
+    <Compile Include="Classes\ImageBuilder.cs" />
+    <Compile Include="Classes\IntegralImage.cs" />
+    <Compile Include="Classes\NChromaprint.cs" />
+    <Compile Include="Classes\FingerprintCompressor.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Classes\Quantizer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Readme\MathNet.Numerics.authors.txt" />
+    <Content Include="App_Readme\MathNet.Numerics.copyright.txt" />
+    <Content Include="App_Readme\MathNet.Numerics.readme.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
